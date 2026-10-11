@@ -20,4 +20,6 @@ Como Inseir novos projetos:
 2. preencher todos os dados , seguindo o modelo 'Educação para crianças'
 3. Para poder inserir imagens tera que escrever apenas o caminho da pasta e o nome da imagem
 4. imagem: "imagem/projeto1.jpg" `basta apenas mudar o 'projeto1' para o nome da sua imagem.
-5. Os projetos serâo inseridos de forma automatica conforme o numero de projetos
+5. Caso queira colocar apenas o link da sua imagem , apenas inserir o link
+6. imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbsuQ3iMSfuGywlTnqZbukSEquaYYx58AUr9B90UFHQ&s=10" 
+7. Os projetos serâo inseridos de forma automatica conforme o numero de projetos
