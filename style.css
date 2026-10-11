@@ -1,0 +1,29 @@
+/* Cor de fundo da página inteira */
+body {
+    background-color: #caddef;
+}
+
+
+.imagem-cartao {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; /* Evita que a foto fique esticada/espremida */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* Padroniza o tamanho da imagem quando abre o Pop-up (Modal) */
+.imagem-modal {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cartao-animado {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cartao-animado:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
