@@ -14,3 +14,10 @@ Como abrir o site:
 3. Abrir o VSCode;
 4. Arquivo -> Abrir Pasta;
 5. No canto inferior direito, clicar em "Go Live".
+
+Como Inseir novos projetos:
+1. Abrir Arquivo dados.js
+2. preencher todos os dados , seguindo o modelo 'Educação para crianças'
+3. Para poder inserir imagens tera que escrever apenas o caminho da pasta e o nome da imagem
+4. imagem: "imagem/projeto1.jpg" `basta apenas mudar o 'projeto1' para o nome da sua imagem.
+5. Os projetos serâo inseridos de forma automatica conforme o numero de projetos
