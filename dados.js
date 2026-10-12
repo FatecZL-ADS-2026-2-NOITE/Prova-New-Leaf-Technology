@@ -22,7 +22,7 @@ atividade: "Capacitação em habilidades profissionais e orientação para o mer
 objetivo: "Promover a inclusão profissional e o desenvolvimento pessoal dos jovens",
 bairro: "Rio de Janeiro",
 status: true,
-imagem: "imagem/projeto1.jpg",
+imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbsuQ3iMSfuGywlTnqZbukSEquaYYx58AUr9B90UFHQ&s=10",
 alt: "Imagens de crianças em uma sala de aula",
 aceitaVoluntario: true,
 contato: "(00)1111-0000"
