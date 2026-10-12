@@ -1,0 +1,149 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projetos Sociais</title>
+
+    <!-- Busca do documento CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Apresentação inicial da página -->
+    <header class="container apresentacao">
+        <h1>Conheça nossos projetos sociais</h1>
+
+        <p class="texto-apresentacao">
+            Encontre informações sobre nossos projetos sociais e
+            como você pode contribuir para fazer a diferença na
+            vida de muitas pessoas.
+        </p>
+
+        <p class="destaque-apresentacao">
+            Junte-se a nós e ajude a construir um futuro melhor
+            para todos.
+        </p>
+
+        <hr>
+
+        <p class="texto-secundario">
+            Consulte os detalhes de cada projeto e descubra como
+            você pode apoiar nossa missão.
+        </p>
+    </header>
+
+
+    <!-- Área com os filtros de pesquisa -->
+    <main>
+        <section class="container painel-filtros">
+
+            <h2>Filtros</h2>
+
+            <div class="grade-filtros">
+
+                <!-- Busca pelo nome do projeto -->
+                <div class="campo-filtro">
+                    <label for="filtroInput">
+                        Buscar projeto
+                    </label>
+
+                    <input
+                        type="text"
+                        id="filtroInput"
+                        placeholder="Digite o nome do projeto..."
+                    >
+                </div>
+
+
+                <!-- As áreas são preenchidas pelo JavaScript -->
+                <div class="campo-filtro">
+                    <label for="filtroArea">
+                        Área de atuação
+                    </label>
+
+                    <div
+                        id="filtroArea"
+                        class="lista-areas"
+                    >
+                        <!-- As caixas de seleção aparecem aqui -->
+                    </div>
+
+                    <small>
+                        Selecione uma ou mais áreas para filtrar os projetos.
+                    </small>
+                </div>
+
+
+                <!-- O valor vazio representa todos os status -->
+                <div class="campo-filtro">
+                    <label for="filtroStatus">
+                        Status do projeto
+                    </label>
+
+                    <select id="filtroStatus">
+                        <option value="">Todos os projetos</option>
+                        <option value="true">Ativos</option>
+                        <option value="false">Inativos</option>
+                    </select>
+                </div>
+
+
+                <!-- Filtro para projetos que aceitam voluntários -->
+                <div class="campo-filtro">
+                    <label for="filtroVoluntario">
+                        Aceita voluntários?
+                    </label>
+
+                    <select id="filtroVoluntario">
+                        <option value="">Todos</option>
+                        <option value="true">Sim, aceita voluntários</option>
+                        <option value="false">Não aceita voluntários</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- Limpa os campos e mostra todos os projetos novamente -->
+            <button type="button" id="limparFiltros" class="botao-limpar">
+                Limpar filtros
+            </button>
+
+        </section>
+
+
+        <!-- O JavaScript atualiza esta contagem ao aplicar os filtros -->
+        <div class="container area-contador">
+            <p id="contadorProjetos">
+                Carregando projetos...
+            </p>
+        </div>
+
+
+        <!-- Os cards são inseridos aqui pelo script.js -->
+        <section class="container">
+            <div id="tela" class="grade-projetos"></div>
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé da página -->
+    <footer class="container rodape">
+        <p>
+            Consulte os canais oficiais da organização para mais
+            informações.
+        </p>
+    </footer>
+
+
+    <!-- Os dados precisam ser carregados antes do script que os utiliza -->
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
