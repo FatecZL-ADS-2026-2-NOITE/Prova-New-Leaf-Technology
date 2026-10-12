@@ -392,6 +392,8 @@ button:focus-visible {
 .rodape {
     margin-top: 48px;
     margin-bottom: 36px;
+    text-align: center;
+    font-size: 0.65rem;
 }
 
 
