@@ -11,9 +11,8 @@ Jon Waldir Quispe Marca - Pesquisa de Framework de CSS, implementação do estil
 Como abrir o site:
 1. Baixar o repositório do github;
 2. Extrair o conteúdo do arquivo baixado;
-3. Abrir o VSCode;
-4. Arquivo -> Abrir Pasta;
-5. No canto inferior direito, clicar em "Go Live".
+3. Localizar o arquivo index.html;
+4. Duplo clique para iniciar o arquivo index.html com o navegador.
 
 Como Inseir novos projetos:
 1. Abrir Arquivo dados.js
